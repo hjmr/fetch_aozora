@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fetch_aozora"
+version = "0.1.0"
+description = ""
+authors = ["hjmr <2620990+hjmr@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "*"
+requests = "*"
+ginza = "*"
+ja-ginza = "*"
+Janome = "*"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pylint = "^2.13.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
